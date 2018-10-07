@@ -353,25 +353,25 @@ var RobotArm = function (canvas) {
 
     self.loadLevel = function(levelName) {
         switch (levelName) {
-            case "exercise 1":
+            case "opdracht 1":
                 self.setMap([[], ["red"]]);
                 break;
-            case "exercise 2":
+            case "opdracht 2":
                 self.setMap([["blue"], [] ,[], [], ["blue"], [], [], ["blue"]]);
                 break;
-            case "exercise 3":
+            case "opdracht 3":
                 self.setMap([["white", "white", "white", "white"]]);
                 break;
-            case "exercise 4":
+            case "opdracht 4":
                 self.setMap([["blue", "white", "green"]]);
                 break;
-            case "exercise 5":
+            case "opdracht 5":
                 self.setMap([[], ["red", "red", "red", "red", "red", "red", "red"]]);
                 break;
-            case "exercise 6":
+            case "opdracht 6":
                 self.setMap([["red"], ["blue"], ["white"], ["green"], ["green"], ["blue"], ["red"], ["white"]]);
                 break;
-            case "exercise 7":
+            case "opdracht 7":
                 self.setMap([
                     [],
                     ["blue", "blue", "blue", "blue", "blue", "blue"],
@@ -385,10 +385,10 @@ var RobotArm = function (canvas) {
                     ["blue", "blue", "blue", "blue", "blue", "blue"]
                 ]);
                 break;
-            case "exercise 8":
-                self.loadLevel("exercise 5");
+            case "opdracht 8":
+                self.loadLevel("opdracht 5");
                 break;
-            case "exercise 9":
+            case "opdracht 9":
                 self.setMap([
                     ["blue"],
                     ["green", "green"],
@@ -396,7 +396,7 @@ var RobotArm = function (canvas) {
                     ["red", "red", "red", "red"]
                 ]);
                 break;
-            case "exercise 10":
+            case "opdracht 10":
                 self.setMap([
                     ["green"],
                     ["blue"],
@@ -405,7 +405,7 @@ var RobotArm = function (canvas) {
                     ["blue"]
                 ]);
                 break;
-            case "exercise 11":
+            case "opdracht 11":
                 self.setMap([
                     [],
                     [local.blocks.availableColors[Math.floor(Math.random() * local.blocks.availableColors.length)]],
@@ -419,7 +419,7 @@ var RobotArm = function (canvas) {
                     [local.blocks.availableColors[Math.floor(Math.random() * local.blocks.availableColors.length)]]
                 ]);
                 break;
-            case "exercise 12":
+            case "opdracht 12":
                 self.setMap([
                     [local.blocks.availableColors[Math.floor(Math.random() * local.blocks.availableColors.length)]],
                     [local.blocks.availableColors[Math.floor(Math.random() * local.blocks.availableColors.length)]],
@@ -432,7 +432,7 @@ var RobotArm = function (canvas) {
                     [local.blocks.availableColors[Math.floor(Math.random() * local.blocks.availableColors.length)]],
                 ]);
                 break;
-            case "exercise 13":
+            case "opdracht 13":
                 self.setMap([
                     ["green"],
                     ["green"],
@@ -446,7 +446,7 @@ var RobotArm = function (canvas) {
                     ["green"]
                 ]);
                 break;
-            case "exercise 14":
+            case "opdracht 14":
                 self.setMap([
                     [],
                     ["green"],
@@ -460,7 +460,7 @@ var RobotArm = function (canvas) {
                     ["red"]
                 ]);
                 break;
-            case "exercise 15":
+            case "opdracht 15":
                 self.setMap([
                     [],
                     ["blue"],
